@@ -1,15 +1,15 @@
 package dk.cphbusiness.checks;
 
 public class Person {
-    public long id;
-    public String name;
+    private long id;
+    private String name;
     
-    public Person(long id, String name, String email) {
-        id = id;
+    public Person(final long id, final String name, final String email) {
+        this.id = id;
         this.name = name;
         }
     
-    public String getName() {
+    public final String getName() {
         return name;
         }
     

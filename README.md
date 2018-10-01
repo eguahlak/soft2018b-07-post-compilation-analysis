@@ -22,3 +22,4 @@ Add the following to the `pom.xml` `build/plugins` section:
     </executions>
 </plugin>
 ```
+Do not use version `0.8.2` It won't generate the report.
